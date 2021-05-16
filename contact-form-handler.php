@@ -3,7 +3,7 @@
     $visitor_email = $_POST['email'];
     $message = $_POST['message'];
 
-    $email_from = 'daniskadic8@gmail.com';
+    $email_from = 'mail sa kojeg ces dobiti pitanje';
     
     $email_subject = "Dobili ste novo pitanje";
 
@@ -12,7 +12,7 @@
                     "User Message: $message.\n";
 
 
-    $to = "daniskadic9@gmail.com";
+    $to = "mail na koji ces dobiti pitanje";
 
     $headers = "From: $email_from \r\n";
 
